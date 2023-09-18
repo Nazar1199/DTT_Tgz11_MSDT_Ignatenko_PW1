@@ -15,7 +15,9 @@ namespace DTT_Tgz11_MSDT_Ignatenko
 			try
 			{
 				x = int.Parse(textBoxX.Text);
-			} catch {
+			}
+			catch
+			{
 				labelErrors.Text = "В поле должно быть введено число!";
 				validation = false;
 			}

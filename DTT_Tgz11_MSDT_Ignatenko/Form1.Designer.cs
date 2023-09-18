@@ -72,7 +72,7 @@
 			// 
 			buttonRes.Location = new Point(168, 173);
 			buttonRes.Name = "buttonRes";
-			buttonRes.Size = new Size(94, 47);
+			buttonRes.Size = new Size(100, 47);
 			buttonRes.TabIndex = 3;
 			buttonRes.Text = "Рассчитать результат";
 			buttonRes.UseVisualStyleBackColor = true;
