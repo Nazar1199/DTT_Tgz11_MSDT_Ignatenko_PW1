@@ -6,5 +6,10 @@ namespace DTT_Tgz11_MSDT_Ignatenko
 		{
 			InitializeComponent();
 		}
+
+		private void buttonRes_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
