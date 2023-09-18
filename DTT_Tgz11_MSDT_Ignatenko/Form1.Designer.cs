@@ -36,6 +36,7 @@
 			textBoxRes = new TextBox();
 			label2 = new Label();
 			label3 = new Label();
+			labelErrors = new Label();
 			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
 			SuspendLayout();
 			// 
@@ -100,9 +101,19 @@
 			label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
 			label3.Location = new Point(343, 45);
 			label3.Name = "label3";
-			label3.Size = new Size(367, 86);
+			label3.Size = new Size(367, 66);
 			label3.TabIndex = 2;
 			label3.Text = "Практическая работа №1 по современным инструментам разработки программного обеспечения. Разработал студент группы ТЦТ-Tgz11 Игнатенко Н.А.";
+			// 
+			// labelErrors
+			// 
+			labelErrors.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+			labelErrors.ForeColor = Color.Red;
+			labelErrors.Location = new Point(343, 144);
+			labelErrors.Name = "labelErrors";
+			labelErrors.Size = new Size(367, 66);
+			labelErrors.TabIndex = 2;
+			labelErrors.Text = "ERROR MESSAGES";
 			// 
 			// Form1
 			// 
@@ -110,6 +121,7 @@
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(787, 237);
 			Controls.Add(buttonRes);
+			Controls.Add(labelErrors);
 			Controls.Add(label3);
 			Controls.Add(label2);
 			Controls.Add(label1);
@@ -132,5 +144,6 @@
 		private TextBox textBoxRes;
 		private Label label2;
 		private Label label3;
+		private Label labelErrors;
 	}
 }
